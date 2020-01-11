@@ -1,0 +1,72 @@
+// ### @1440p ### //
+
+// Wallpaper //
+$drawimage(0,0,2560,1440,D:\Images\dynamicWall\%wallid%.jpg)
+$drawimage(0,0,2560,1440,D:\Images\dynamicWall\vignette.png)
+
+// InfoBoxes //
+$drawimage(164,1142,150,150,D:\Images\dynamicWall\aa-darken.png)
+$drawimage(325,1140,832,150,D:\Images\dynamicWall\info-darken.png)
+
+// AA-Outline //
+$drawrect(160,1138,154,4,255-255-255-255,0-0-0-0)
+$drawrect(160,1288,154,4,255-255-255-255,0-0-0-0)
+$drawrect(160,1138,4,154,255-255-255-255,0-0-0-0)
+$drawrect(310,1138,4,154,255-255-255-255,0-0-0-0)
+
+// Info-Outline //
+$drawrect(323,1138,836,4,255-255-255-255,0-0-0-0)
+$drawrect(323,1288,836,4,255-255-255-255,0-0-0-0)
+$drawrect(323,1138,4,154,255-255-255-255,0-0-0-0)
+$drawrect(1155,1138,4,154,255-255-255-255,0-0-0-0)
+
+// Text //
+$font(Roboto Condensed,36,)
+$drawtextex(%title%,350,1163,800,150,255-255-255,left top end_ellipsis)
+$font(Roboto Condensed,28,)
+$drawtextex(%artist%,350,1220,800,150,255-255-255,left top end_ellipsis)
+$drawimage(164,1142,146,146,C:\Users\alex\Documents\Rainmeter\Skins\monstercat-visualizer\@Resources\images\nocover.png)
+
+// ### @1440pUW ### //
+
+// Wallpaper //
+//$drawimage(880,0,2560,1440,D:\Images\dynamicWall\%wallid%.jpg)
+//$drawimage(0,0,3440,1440,D:\Images\dynamicWall\mask.png)
+
+// Line-Break //
+//$drawrect(164,724,750,3,255-255-255-255,0-0-0-0)
+
+// Text //
+//$font(Roboto Condensed,36,)
+//$drawtextex(%title%,164,730,930,150,255-255-255,left top end_ellipsis)
+//$font(Roboto Condensed,25,)
+//$drawtextex(%artist%,164,785,930,150,145-145-145,left top end_ellipsis)
+
+// ### @1080p ### //
+
+// Wallpaper //
+//$if([%wallid%],$drawimage(0,0,1920,1080,D:\Images\dynamicWall\%wallid%.jpg),$drawimage(0,0,1920,1080,D:\Images\dynamicWall\stock.jpg))
+//$drawimage(0,0,1920,1080,D:\Images\dynamicWall\vignette.png)
+
+// InfoBoxes //
+//$drawimage(123,856,112,112,D:\Images\dynamicWall\aa-darken.png)
+//$drawimage(247,855,624,114,D:\Images\dynamicWall\info-darken.png)
+
+// AA-Outline //
+//$drawrect(120,853,115,3,255-255-255-255,0-0-0-0)
+//$drawrect(120,965,115,3,255-255-255-255,0-0-0-0)
+//$drawrect(120,853,3,115,255-255-255-255,0-0-0-0)
+//$drawrect(235,853,3,115,255-255-255-255,0-0-0-0)
+
+// Info-Outline //
+//$drawrect(245,853,627,3,255-255-255-255,0-0-0-0)
+//$drawrect(245,965,627,3,255-255-255-255,0-0-0-0)
+//$drawrect(245,853,3,115,255-255-255-255,0-0-0-0)
+//$drawrect(869,853,3,115,255-255-255-255,0-0-0-0)
+
+// Text //
+//$font(Roboto Condensed,26,)
+//$drawtextex(%title%,268,873,550,50,255-255-255,left top end_ellipsis)
+//$font(Roboto Condensed,18,)
+//$drawtextex(%artist%,268,914,550,50,255-255-255,left top end_ellipsis)
+//$drawimage(123,856,109,109,C:\Users\alex\Documents\Rainmeter\Skins\monstercat-visualizer\@Resources\images\nocover.png)
